@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PUBG SHOP | متجر ببجي</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+font-family:Arial,sans-serif;
+background:#101114;color:#fff;
+}
+header{
+display:flex;justify-content:space-between;
+align-items:center;padding:20px 7%;
+background:#17181c;border-bottom:1px solid #b99243;
+}
+.logo{font-size:25px;font-weight:bold;color:#e6bd62}
+nav a{color:#ddd;text-decoration:none;margin:0 10px;font-size:14px}
+.hero{
+text-align:center;padding:85px 20px;
+background:linear-gradient(135deg,#252016,#111216 65%);
+}
+.hero h1{font-size:38px;color:#e7bd62;margin-bottom:15px}
+.hero p{color:#ccc;line-height:1.8}
+.btn{
+display:inline-block;margin-top:25px;padding:13px 30px;
+background:#d5ad59;color:#171717;
+border-radius:7px;text-decoration:none;font-weight:bold;
+}
+section{padding:45px 7%}
+h2{color:#e5bd65;margin-bottom:25px}
+.categories,.products{
+display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));
+gap:15px;
+}
+.category,.product{
+background:#1b1d22;border:1px solid #39332a;
+border-radius:12px;padding:22px 15px;text-align:center;
+}
+.category{color:#e7bd62;font-weight:bold}
+.product h3{margin:12px 0;color:#e7bd62}
+.product p{color:#bbb;font-size:14px;line-height:1.8}
+.product a{display:block;margin-top:15px;padding:10px;
+background:#d5ad59;color:#151515;text-decoration:none;
+border-radius:6px;font-weight:bold}
+footer{
+text-align:center;padding:30px;
+background:#17181c;color:#aaa;
+border-top:1px solid #8c713d;line-height:2;
+}
+@media(max-width:600px){
+header{padding:17px;flex-wrap:wrap;gap:15px}
+nav{width:100%;display:flex;justify-content:space-between}
+nav a{margin:0;font-size:12px}
+.hero h1{font-size:29px}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">PUBG SHOP</div>
+<nav>
+<a href="#home">الرئيسية</a>
+<a href="#categories">الفئات</a>
+<a href="#products">الحسابات</a>
+<a href="#contact">تواصل معنا</a>
+</nav>
+</header>
+
+<div class="hero" id="home">
+<h1>مرحباً بك في PUBG SHOP</h1>
+<p>وجهتك لاكتشاف حسابات PUBG Mobile والعروض المميزة</p>
+<a href="#products" class="btn">استكشف المتجر</a>
+</div>
+
+<section id="categories">
+<h2>فئات المتجر</h2>
+<div class="categories">
+<div class="category">⚡ حسابات اقتصادية</div>
+<div class="category">💎 حسابات مميزة</div>
+<div class="category">👑 حسابات نادرة</div>
+<div class="category">🔥 حسابات احترافية</div>
+</div>
+</section>
+
+<section id="products">
+<h2>أحدث الحسابات</h2>
+<div class="products">
+<div class="product">
+<h3>حساب مميز</h3>
+<p>صور الحساب وتفاصيله ستظهر هنا</p>
+<p>السعر: يحدد عند الإضافة</p>
+<a href="#contact">عرض التفاصيل</a>
+</div>
+<div class="product">
+<h3>حساب نادر</h3>
+<p>صور الحساب وتفاصيله ستظهر هنا</p>
+<p>السعر: يحدد عند الإضافة</p>
+<a href="#contact">عرض التفاصيل</a>
+</div>
+<div class="product">
+<h3>حساب احترافي</h3>
+<p>صور الحساب وتفاصيله ستظهر هنا</p>
+<p>السعر: يحدد عند الإضافة</p>
+<a href="#contact">عرض التفاصيل</a>
+</div>
+</div>
+</section>
+
+<footer id="contact">
+<h2>PUBG SHOP</h2>
+<p>خدمة العملاء والتواصل مع البائعين</p>
+<p>جميع الحقوق محفوظة © PUBG SHOP</p>
+</footer>
+
+</body>
+</html>
